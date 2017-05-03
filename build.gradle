@@ -45,4 +45,7 @@ publishing {
 shadowJar {
     relocate 'com.sun.jersey', 'shaded.com.sun.jersey'
     relocate 'javax.ws.rs', 'shaded.javax.ws.rs'
+    relocate 'javax.servlet', 'shaded.javax.servlet'
+    relocate 'com.google.common', 'shaded.com.google.common'
 }
+
